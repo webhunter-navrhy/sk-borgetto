@@ -1,0 +1,16 @@
+{
+  "znamka": 4,
+  "slabiny": [
+    "Na celém webu (hero i Čo ponúkame) není jediná fotka ani konkrétní priestor. Hero tvoří jen prázdný půdorys s písmeny A–D, takže na PC i na mobilu působí jako drátěný model. Oprava: hero postavit na velké fotce skutečných prostor nebo budovy Borgetto ve Zvolenu přes celou šířku. Půdorys může zůstat jako koncept, ale s reálnými prostory (označit, co je volné, uvést m² a účel, jen pokud jsou doložené) a fotkou u každého prostoru.",
+    "V sekci Čo ponúkame jsou tři stejné rámečkové karty s čísly 01/02/03 a jednou větou textu. Navíc jsou číslované i sekce (01 – PONUKA, 02 – POSTUP, 03 – KONTAKT) a pod tím je tmavý pruh se třemi kroky. Je to přesně šablonová kostra, kterou Rafael opakovaně odmítl. Oprava: číslování odstranit, karty nahradit seznamem konkrétních prostor nebo služeb s fotkou a parametry. Postup „Napíšete / Ozveme sa / Dohodneme sa“ zkrátit do jedné věty u kontaktu místo samostatného tmavého pruhu.",
+    "Na mobilu (390 px) zabírá hlavička s menu zalomeným do dvou řádků asi 130 px. Logo i e-mailový odkaz jsou pod 40 px (QA). Chybí og:image a logo klienta, v hlavičce je jen název v Georgii. Oprava: na mobilu udělat jednořádkovou hlavičku s hamburgerem nebo kotvou Kontakt, logo převzít z borgetto.sk (pokud existuje) a zvětšit dotykové plochy na 44 px. Doplnit og:image z hero fotky a za Georgia/system-ui zvolit řemeslnou dvojici fontů s ověřenou diakritikou."
+  ],
+  "zavazne": [],
+  "silne": [
+    "Na šesti šířkách nic nepřetéká a stránka je lehká (0,01 MB).",
+    "Texty jsou věcné, slovenské, bez vymyšlených čísel a recenzí. IČO a e-mail jsou v kontaktu i v patičce.",
+    "Nápad s půdorysem prostoru A–D vychází z oboru (pronájem prostor) a dá se rozvinout."
+  ],
+  "verdikt": "Predelat: web je bez fotek a bez loga, s číslovanými sekcemi a kartami a s tmavým pruhem postupu. Působí jako prázdná šablona, ne jako redesign pro Borgetto. Koncept půdorysu je třeba naplnit skutečnými prostory a fotkami.",
+  "_hash": "d4170a4ec39c959302095243dd5856cdc541fbee"
+}

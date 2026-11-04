@@ -24,31 +24,21 @@
 </section>
 <section class="sekce" id="sluzby">
   <div class="wrap">
-    <p class="kota">01 – Ponuka</p>
+    <p class="kota">Ponuka</p>
     <h2>Čo ponúkame</h2>
     <ul role="list" class="karty">
-      {% for s in data.sluzby %}<li><span class="cis">{{ '%02d' % loop.index }}</span><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+      {% for s in data.sluzby %}<li><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
     </ul>
-  </div>
-</section>
-<section class="sekce tmava" id="postup">
-  <div class="wrap">
-    <p class="kota">02 – Postup</p>
-    <h2>Ako to funguje</h2>
-    <div class="kroky">
-      <div><h3>Napíšete, čo hľadáte</h3><p>Typ priestoru, lokalita vo Zvolene a kedy ho potrebujete.</p></div>
-      <div><h3>Ozveme sa Vám</h3><p>Pošleme dostupné možnosti a podmienky prenájmu.</p></div>
-      <div><h3>Dohodneme sa</h3><p>Po výbere spolu doladíme podrobnosti.</p></div>
-    </div>
   </div>
 </section>
 <section class="sekce" id="kontakt">
   <div class="wrap kontakt-grid">
     <div>
-      <p class="kota">03 – Kontakt</p>
+      <p class="kota">Kontakt</p>
       <h2>Ozvite sa nám</h2>
       <p>Borgetto s. r. o.<br>Zvolen<br>IČO 46307141</p>
       <p><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
+      <p>Napíšte, aký priestor hľadáte a kedy ho potrebujete. Ozveme sa Vám s dostupnými možnosťami.</p>
       <p class="muted">Formulár je v náhľade len ukážka.</p>
     </div>
     {% include "_formular.html" %}
