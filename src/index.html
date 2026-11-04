@@ -1,0 +1,57 @@
+{% extends "_base.html" %}
+{% set titulek = 'Borgetto Zvolen – prenájom komerčných priestorov a nehnuteľností' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="kota">Zvolen · Banskobystrický kraj</p>
+      <h1>Priestor, ktorý Vám sedí.</h1>
+      <p class="lead">Borgetto s. r. o. – prenájom komerčných priestorov, nehnuteľností a požičovňa vo Zvolene.</p>
+      <p><a class="btn" href="#kontakt">Napíšte nám</a> <a class="btn btn-o" href="#sluzby">Čo ponúkame</a></p>
+    </div>
+    <svg class="plan" viewBox="0 0 400 320" role="img" aria-label="Pôdorys priestoru, ilustrácia">
+      <g fill="none" stroke="currentColor" stroke-width="2" pathLength="1">
+        <path class="draw" d="M20 20H380V300H20Z"/>
+        <path class="draw" d="M20 150H190M250 150H380"/>
+        <path class="draw" d="M200 20V110M200 190V300"/>
+        <path class="draw" d="M190 150a40 40 0 0 1 0 0"/>
+        <path class="draw thin" d="M20 8H380M20 3V13M380 3V13"/>
+      </g>
+      <g fill="currentColor" font-size="13" font-family="Georgia,serif"><text x="34" y="46">A</text><text x="214" y="46">B</text><text x="34" y="176">C</text><text x="214" y="176">D</text></g>
+    </svg>
+  </div>
+</section>
+<section class="sekce" id="sluzby">
+  <div class="wrap">
+    <p class="kota">01 – Ponuka</p>
+    <h2>Čo ponúkame</h2>
+    <ul role="list" class="karty">
+      {% for s in data.sluzby %}<li><span class="cis">{{ '%02d' % loop.index }}</span><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+    </ul>
+  </div>
+</section>
+<section class="sekce tmava" id="postup">
+  <div class="wrap">
+    <p class="kota">02 – Postup</p>
+    <h2>Ako to funguje</h2>
+    <div class="kroky">
+      <div><h3>Napíšete, čo hľadáte</h3><p>Typ priestoru, lokalita vo Zvolene a kedy ho potrebujete.</p></div>
+      <div><h3>Ozveme sa Vám</h3><p>Pošleme dostupné možnosti a podmienky prenájmu.</p></div>
+      <div><h3>Dohodneme sa</h3><p>Po výbere spolu doladíme podrobnosti.</p></div>
+    </div>
+  </div>
+</section>
+<section class="sekce" id="kontakt">
+  <div class="wrap kontakt-grid">
+    <div>
+      <p class="kota">03 – Kontakt</p>
+      <h2>Ozvite sa nám</h2>
+      <p>Borgetto s. r. o.<br>Zvolen<br>IČO 46307141</p>
+      <p><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
+      <p class="muted">Formulár je v náhľade len ukážka.</p>
+    </div>
+    {% include "_formular.html" %}
+  </div>
+</section>
+{% endblock %}
