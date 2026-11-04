@@ -68,7 +68,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-si
 .wrap{max-width:72rem;margin:0 auto;padding:0 1.25rem}
 .hlavicka{border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:5}
 .hlavicka .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding-top:.9rem;padding-bottom:.9rem;flex-wrap:wrap}
-.logo{font-family:var(--font-head);font-size:1.3rem;font-weight:700;color:var(--accent);text-decoration:none;letter-spacing:.02em}
+.logo{display:inline-block;padding:.5rem 0;font-family:var(--font-head);font-size:1.3rem;font-weight:700;color:var(--accent);text-decoration:none;letter-spacing:.02em}
 nav a{margin-left:1.2rem;color:var(--text);text-decoration:none;font-size:var(--step--1);text-transform:uppercase;letter-spacing:.08em}
 nav a:hover{color:var(--warm)}
 .skip{position:absolute;left:-999px}.skip:focus{left:0;background:#fff;padding:.5rem}
@@ -106,3 +106,4 @@ h3{font-size:var(--step-1)}
 .past{position:absolute;left:-999px}
 .paticka{background:#14231f;color:#cfd8d4;padding:2rem 0;font-size:var(--step--1)}.paticka a{color:#e3a37f}
 @media(max-width:820px){.hero-grid,.kontakt-grid,.karty,.kroky{grid-template-columns:1fr}nav a{margin:0 .8rem 0 0}.hlavicka .wrap{flex-direction:column;align-items:flex-start}}
+a[href^="mailto"]{display:inline-block;padding:.6rem 0}
