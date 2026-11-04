@@ -7,24 +7,27 @@
     <div>
       <p class="kota">Zvolen · Banskobystrický kraj</p>
       <h1>Priestor, ktorý Vám sedí.</h1>
-      <p class="lead">Borgetto s. r. o. – prenájom komerčných priestorov, nehnuteľností a požičovňa vo Zvolene.</p>
-      <p><a class="btn" href="#kontakt">Napíšte nám</a> <a class="btn btn-o" href="#sluzby">Čo ponúkame</a></p>
+      <p class="lead">Prenájom komerčných priestorov a nehnuteľností vo Zvolene. K tomu požičovňa vecí a vybavenia.</p>
+      <p><a class="btn" href="#kontakt">Napíšte nám</a></p>
     </div>
-    <svg class="plan" viewBox="0 0 400 320" role="img" aria-label="Pôdorys priestoru, ilustrácia">
+    <svg class="plan" viewBox="0 0 420 340" role="img" aria-label="Pôdorys s tromi časťami ponuky: komerčné priestory, nehnuteľnosti, požičovňa">
       <g fill="none" stroke="currentColor" stroke-width="2" pathLength="1">
-        <path class="draw" d="M20 20H380V300H20Z"/>
-        <path class="draw" d="M20 150H190M250 150H380"/>
-        <path class="draw" d="M200 20V110M200 190V300"/>
-        <path class="draw" d="M190 150a40 40 0 0 1 0 0"/>
-        <path class="draw thin" d="M20 8H380M20 3V13M380 3V13"/>
+        <path class="draw" d="M10 20H410V330H10Z"/>
+        <path class="draw" d="M230 20V200M10 200H410"/>
+        <path class="draw" d="M130 200V330"/>
+        <path class="draw thin" d="M10 8H410M10 3V13M410 3V13"/>
       </g>
-      <g fill="currentColor" font-size="13" font-family="Georgia,serif"><text x="34" y="46">A</text><text x="214" y="46">B</text><text x="34" y="176">C</text><text x="214" y="176">D</text></g>
+      <g fill="currentColor" font-family="Georgia,serif" font-size="17">
+        <text x="28" y="58">Komerčné</text><text x="28" y="80">priestory</text>
+        <text x="248" y="58">Nehnuteľnosti</text>
+        <text x="28" y="238">Požičovňa</text>
+        <text x="148" y="238">Dohoda</text><text x="148" y="260">podľa potreby</text>
+      </g>
     </svg>
   </div>
 </section>
 <section class="sekce" id="sluzby">
   <div class="wrap">
-    <p class="kota">Ponuka</p>
     <h2>Čo ponúkame</h2>
     <ul role="list" class="karty">
       {% for s in data.sluzby %}<li><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
@@ -34,7 +37,6 @@
 <section class="sekce" id="kontakt">
   <div class="wrap kontakt-grid">
     <div>
-      <p class="kota">Kontakt</p>
       <h2>Ozvite sa nám</h2>
       <p>Borgetto s. r. o.<br>Zvolen<br>IČO 46307141</p>
       <p><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>

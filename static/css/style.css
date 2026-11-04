@@ -112,3 +112,10 @@ a[href^="mailto"]{display:inline-block;padding:.6rem 0}
 .karty li{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:2rem;align-items:baseline;border:0;border-bottom:1px solid var(--accent);background:transparent;padding:1.6rem 0}
 .karty h3{margin:0;font-size:var(--step-2)}
 @media(max-width:820px){.karty li{grid-template-columns:1fr;gap:.4rem}.hlavicka .wrap{flex-direction:row;align-items:center;flex-wrap:nowrap}nav a{margin:0 0 0 .8rem;padding:.8rem 0;display:inline-block}.logo{font-size:1.1rem}}
+
+/* kolo 3: tmavý hero, jednořádková hlavička */
+.hero{background:var(--accent);color:var(--accent-text);padding:clamp(3rem,8vw,7rem) 0}
+.hero h1,.hero .lead{color:var(--accent-text)}.hero .kota{color:#e3a37f}
+.hero .plan{color:#e9dfcc}.hero .btn{background:var(--warm);border-color:var(--warm);color:#fff}.hero .btn:hover{background:#e3a37f;border-color:#e3a37f;color:#14231f}
+.karty li{padding:2.2rem 0}.karty h3{font-size:var(--step-3)}.karty p{font-size:var(--step-1)}
+@media(max-width:820px){nav a{min-height:44px;display:inline-flex;align-items:center}.hlavicka .wrap{padding-top:.4rem;padding-bottom:.4rem}}
