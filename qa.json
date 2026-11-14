@@ -1,5 +1,5 @@
 {
-  "url": "https://webhunter-navrhy.github.io/sk-borgetto/?t=1794637128",
+  "url": "https://webhunter-navrhy.github.io/sk-borgetto/?t=1794637327",
   "ok": true,
   "chyby": [],
   "varovani": [],
@@ -30,18 +30,18 @@
         "pocet_pretekajicich": 0
       }
     },
-    "preneseno_PC_MB": 0.21,
+    "preneseno_PC_MB": 0.32,
     "nejvetsi_obrazek_PC": {
-      "kB": 36,
-      "url": "https://webhunter-navrhy.github.io/sk-borgetto/img/poziconva-640.webp"
+      "kB": 92,
+      "url": "https://webhunter-navrhy.github.io/sk-borgetto/img/poziconva-1280.webp"
     },
     "snimku_PC": 4,
-    "preneseno_mobil_MB": 0.28,
+    "preneseno_mobil_MB": 0.32,
     "nejvetsi_obrazek_mobil": {
       "kB": 93,
       "url": "https://webhunter-navrhy.github.io/sk-borgetto/img/poziconva-1280.webp"
     },
-    "snimku_mobil": 4,
+    "snimku_mobil": 5,
     "seo": {
       "title": "Borgetto Zvolen – prenájom komerčných priestorov a nehnuteľností",
       "description": "Borgetto, Zvolen – prenájom komerčných priestorov, nehnuteľností a požičovňa. Napíšte nám a ozveme s",

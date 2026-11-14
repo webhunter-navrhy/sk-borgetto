@@ -1,17 +1,17 @@
 {
   "znamka": 7,
   "slabiny": [
-    "Čo ponúkame (PC 1440): rozdělení fotka 50 % / text 50 % a h3 nahoře je opravené, ale bod se 2–3 doloženými informacemi chybí. U každé položky je pořád jen jedna věta a pod ní zůstává asi 150 px prázdného místa vedle fotky. Oprava: u Komerčných priestorov rozepsat to, co už v textu je, na body (obchod / kancelárie / služba, Zvolen). U každé položky přidat textový odkaz „Napíšte nám“ na formulář. Rafaelovi do shrnutí vypsat podklady, které si má od klienta vyžádat: typy a výměry priestorov, adresy ve Zvolene a seznam věcí v požičovni.",
-    "Hero (PC 1440×900): fotka přes celou šířku je opravená, ale tmavě zelený pruh pod ní začíná až těsně nad spodní hranou první obrazovky. Na ní je vidět jen h1 a perex s tlačítkem „Napíšte nám“ jsou až po scrollu (buňka 2). Oprava: fotku zmenšit asi na 60–62vh a zúžit horní odsazení pruhu, aby se h1, perex i CTA vešly do první obrazovky. Pruh pod fotkou udělat světlý v barvě pozadí stránky, jak chtělo minulé kolo, ne tmavě zelený blok.",
-    "Čo ponúkame (PC i mobil): popisek „Ukážková fotka, nahradíme ju Vašimi priestormi.“ je jen u hero. Fotky u Komerčných priestorov, Nehnuteľností a Požičovne jsou podle briefu taky ilustrační AI ukázky, ale označené nejsou. Oprava: dát stejný malý popisek do rohu všech tří fotek, aby klient nemyslel, že jde o jeho skutečné prostory a sklad."
+    "Hero (PC 1440×900): pruh pod fotkou je už světlý a h1 i perex se vejdou do první obrazovky, ale tlačítko „Napíšte nám“ je pořád uříznuté spodní hranou, je vidět jen jeho horní okraj. Oprava: fotku zmenšit z asi 58vh na 50–52vh, nebo zúžit horní odsazení nad nápisem „ZVOLEN · BANSKOBYSTRICKÝ KRAJ“ zhruba o 40 px. Celé CTA musí být vidět bez scrollu.",
+    "Čo ponúkame (PC i mobil): body pod perexem mají asi 13 px, jsou tedy menší než perex (16 px). K tomu mají odsazení zleva a vysoké řádky s linkou, takže připomínají prázdné řádky tabulky nebo formuláře, ne seznam. Na PC navíc blok bodů přesahuje výšku fotky. Oprava: body zvětšit na 15–16 px, zarovnat vlevo s h3 a dát jim krátkou pomlčku nebo tenkou značku. Vertikální padding zmenšit asi na polovinu, aby text a fotka měly stejnou výšku.",
+    "Čo ponúkame (PC): tři položky za sebou mají stejnou skladbu, fotku vlevo a text vpravo, a kromě hero a kontaktu je to celý web. Stránka proto působí monotónně a šablonovitě. Oprava: u položky Nehnuteľnosti dát fotku doprava (střídat strany, rozdělení 50/50 zůstane). Kromě toho v hlavičce v buňce 2 odstranit tmavou čáru pod názvem „Borgetto“, vypadá jako zbloudilý indikátor aktivní položky."
   ],
   "zavazne": [],
   "silne": [
-    "Hero má fotku přes celou šířku asi na 70vh a popisek ukázkové fotky je vidět, minulá výtka je opravená.",
-    "Webfonty Lora + Inter nahradily Georgia/system-ui. Slovenské znaky ľ, ô, č, ň (Čo ponúkame, Požičovňa, nehnuteľností) se kreslí správně a h2 Čo ponúkame / Ozvite sa nám mají stejnou velikost.",
-    "QA je čistá: nic nepřetéká na žádné ze 6 šířek, stránka má 0,2–0,3 MB, je nastavený noindex a SEO je kompletní.",
-    "Kontakt je jasný: firma, IČO, e-mail a formulář vedle sebe. Na mobilu je pořadí logické a texty se dobře čtou."
+    "Všechny tři minulé výtky jsou opravené nebo skoro opravené. Položky mají body z existujícího textu a odkaz „Napíšte nám“ na formulář, všechny ilustrační fotky mají štítek „Ukážková fotka“ a pruh pod hero je světlý v barvě pozadí.",
+    "Obsah je pravdivý: nic není vymyšlené a IČO, e-mail i město sedí s briefem. AI fotky jsou poctivě označené a obsahově sedí k pronájmu prostor, nemovitostí a požičovně.",
+    "Na mobilu je web čistý: v první obrazovce je h1, perex i CTA, nic nepřetéká (QA bez chyb na všech 6 šířkách), dotykové cíle jsou v pořádku a Lora s Inter drží diakritiku.",
+    "Je okamžitě jasné, co firma dělá, kde působí a jak ji kontaktovat. Formulář i e-mail jsou dobře dostupné."
   ],
-  "verdikt": "Všechny tři výtky z minulého kola jsou z větší části opravené, jen u služeb chybí doložené body. Web je korektní a čistý, ale pořád řídký a šablonovitý, a CTA v hero je na PC až pod první obrazovkou. Ještě jedno kolo úprav, ne odeslat.",
-  "_hash": "b2eb46eb903bf81cde7ac9bd704dd1ebeb6742e2"
+  "verdikt": "Opravit. Web je korektní, poctivý a bez závažných vad, z minulých výtek zbývá jen uříznuté CTA v hero na PC. Pořád ale působí jako tichá béžová šablona se třemi stejnými řádky, takže po doladění hero, typografie bodů a střídání stran fotek by měl dosáhnout 8.",
+  "_hash": "3b677dfaac40b299d52422996c7881f292609ef0"
 }
