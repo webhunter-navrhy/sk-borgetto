@@ -1,12 +1,8 @@
 {
-  "url": "https://webhunter-navrhy.github.io/sk-borgetto/",
-  "ok": false,
-  "chyby": [
-    "Chybí og:image"
-  ],
-  "varovani": [
-    "Dotykové cíle <40 px na mobilu: 2× (např. a.logo \"Borgetto s. r. o.\" 172×33; a \"borgetto@borgetto.sk\" 161×19)"
-  ],
+  "url": "https://webhunter-navrhy.github.io/sk-borgetto/?t=1794636807",
+  "ok": true,
+  "chyby": [],
+  "varovani": [],
   "metriky": {
     "sirky": {
       "1440": {
@@ -34,9 +30,17 @@
         "pocet_pretekajicich": 0
       }
     },
-    "preneseno_PC_MB": 0.01,
-    "snimku_PC": 2,
-    "preneseno_mobil_MB": 0.01,
+    "preneseno_PC_MB": 0.09,
+    "nejvetsi_obrazek_PC": {
+      "kB": 36,
+      "url": "https://webhunter-navrhy.github.io/sk-borgetto/img/poziconva-640.webp"
+    },
+    "snimku_PC": 3,
+    "preneseno_mobil_MB": 0.16,
+    "nejvetsi_obrazek_mobil": {
+      "kB": 92,
+      "url": "https://webhunter-navrhy.github.io/sk-borgetto/img/poziconva-1280.webp"
+    },
     "snimku_mobil": 4,
     "seo": {
       "title": "Borgetto Zvolen – prenájom komerčných priestorov a nehnuteľností",
@@ -47,17 +51,17 @@
         true
       ],
       "robots": "noindex, nofollow",
-      "og_image": null,
+      "og_image": "https://webhunter-navrhy.github.io/sk-borgetto/og.jpg",
       "bez_v": [],
       "canonical": true,
       "viewport": true
     },
-    "maly_dotykovy_cil": 2,
+    "maly_dotykovy_cil": 0,
     "font_nadpis": "Georgia",
     "font_text": "system-ui",
     "podstranky": {
-      "stranek": 1,
-      "obrazku": 0
+      "stranek": 2,
+      "obrazku": 9
     }
   }
 }
