@@ -10,27 +10,14 @@
       <p class="lead">Prenájom komerčných priestorov a nehnuteľností vo Zvolene. K tomu požičovňa vecí a vybavenia.</p>
       <p><a class="btn" href="#kontakt">Napíšte nám</a></p>
     </div>
-    <svg class="plan" viewBox="0 0 420 340" role="img" aria-label="Pôdorys s tromi časťami ponuky: komerčné priestory, nehnuteľnosti, požičovňa">
-      <g fill="none" stroke="currentColor" stroke-width="2" pathLength="1">
-        <path class="draw" d="M10 20H410V330H10Z"/>
-        <path class="draw" d="M230 20V200M10 200H410"/>
-        <path class="draw" d="M130 200V330"/>
-        <path class="draw thin" d="M10 8H410M10 3V13M410 3V13"/>
-      </g>
-      <g fill="currentColor" font-family="Georgia,serif" font-size="17">
-        <text x="28" y="58">Komerčné</text><text x="28" y="80">priestory</text>
-        <text x="248" y="58">Nehnuteľnosti</text>
-        <text x="28" y="238">Požičovňa</text>
-        <text x="148" y="238">Dohoda</text><text x="148" y="260">podľa potreby</text>
-      </g>
-    </svg>
+    <div class="hero-foto">{{ img('priestory.jpg','Ukážka: prázdny komerčný priestor s veľkými výkladmi',sizes='(max-width:820px) 100vw, 45vw') }}<p class="muted popis-foto">Ukážková fotka, nahradíme ju Vašimi priestormi.</p></div>
   </div>
 </section>
 <section class="sekce" id="sluzby">
   <div class="wrap">
     <h2>Čo ponúkame</h2>
     <ul role="list" class="karty">
-      {% for s in data.sluzby %}<li><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+      {% for s in data.sluzby %}<li>{{ img(s.foto, s.alt, sizes='(max-width:820px) 100vw, 30vw') }}<h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
     </ul>
   </div>
 </section>

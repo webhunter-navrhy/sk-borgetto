@@ -1,16 +1,16 @@
 {
-  "znamka": 4,
+  "znamka": 5,
   "slabiny": [
-    "Na celém webu (hero i Čo ponúkame) není jediná fotka ani konkrétní priestor. Hero tvoří jen prázdný půdorys s písmeny A–D, takže na PC i na mobilu působí jako drátěný model. Oprava: hero postavit na velké fotce skutečných prostor nebo budovy Borgetto ve Zvolenu přes celou šířku. Půdorys může zůstat jako koncept, ale s reálnými prostory (označit, co je volné, uvést m² a účel, jen pokud jsou doložené) a fotkou u každého prostoru.",
-    "V sekci Čo ponúkame jsou tři stejné rámečkové karty s čísly 01/02/03 a jednou větou textu. Navíc jsou číslované i sekce (01 – PONUKA, 02 – POSTUP, 03 – KONTAKT) a pod tím je tmavý pruh se třemi kroky. Je to přesně šablonová kostra, kterou Rafael opakovaně odmítl. Oprava: číslování odstranit, karty nahradit seznamem konkrétních prostor nebo služeb s fotkou a parametry. Postup „Napíšete / Ozveme sa / Dohodneme sa“ zkrátit do jedné věty u kontaktu místo samostatného tmavého pruhu.",
-    "Na mobilu (390 px) zabírá hlavička s menu zalomeným do dvou řádků asi 130 px. Logo i e-mailový odkaz jsou pod 40 px (QA). Chybí og:image a logo klienta, v hlavičce je jen název v Georgii. Oprava: na mobilu udělat jednořádkovou hlavičku s hamburgerem nebo kotvou Kontakt, logo převzít z borgetto.sk (pokud existuje) a zvětšit dotykové plochy na 44 px. Doplnit og:image z hero fotky a za Georgia/system-ui zvolit řemeslnou dvojici fontů s ověřenou diakritikou."
+    "Hero (PC i 390 px) je pořád jen prázdný drátěný půdorys s popisky Komerčné priestory / Nehnuteľnosti / Požičovňa / Dohoda na tmavě zeleném bloku. Na celém webu není jediná fotka (QA: 0 obrázků, 0,01 MB). Oprava: hero postavit na velké fotce budovy nebo prostor Borgetto ve Zvolenu přes celou šířku, z borgetto.sk nebo od klienta. Půdorys buď odstranit, nebo napojit na skutečné prostory jen s doloženými údaji.",
+    "Sekce Čo ponúkame má číslování a karty pryč, ale tři řádky seznamu mají jen jednu obecnou větu („Prenájom a správa nehnuteľností.“) a web končí hned kontaktem. Na PC jsou tak jen dvě obrazovky obsahu. Oprava: ke každé položce dát fotku a konkrétní údaje z borgetto.sk (adresa nebo lokalita objektu, typ prostoru, co se v požičovni půjčuje). Když podklady chybí, uvést je jako chybějící ve shrnutí, nevymýšlet.",
+    "Hlavička na 390 px se pořád láme: název do dvou řádků „Borgetto s. / r. o.“ a menu Čo ponúkame / Kontakt pod sebe, celkem asi 80 px. Logo klienta chybí, je tam jen text v Georgii. og:image chybí (chyba QA). E-mailový odkaz v kontaktu má 19 px a fonty jsou pořád Georgia + system-ui. Oprava: jednořádková hlavička (logo nebo „Borgetto“ bez s. r. o. vlevo, vpravo jedna kotva Kontakt nebo hamburger, min. 44 px), logo převzít z borgetto.sk, doplnit og:image, e-mail s paddingem na 44 px a nasadit řemeslnou dvojici fontů s ověřenou slovenskou diakritikou."
   ],
   "zavazne": [],
   "silne": [
-    "Na šesti šířkách nic nepřetéká a stránka je lehká (0,01 MB).",
-    "Texty jsou věcné, slovenské, bez vymyšlených čísel a recenzí. IČO a e-mail jsou v kontaktu i v patičce.",
-    "Nápad s půdorysem prostoru A–D vychází z oboru (pronájem prostor) a dá se rozvinout."
+    "Číslování 01/02/03, rámečkové karty i tmavý pruh s kroky jsou pryč. Postup je zkrácený do jedné věty u kontaktu, jak bylo požadováno.",
+    "Žádné přetečení na všech 6 šířkách, kontakt (e-mail, IČO, formulář s poznámkou o ukázce) je jasný a texty vychází z oboru bez vymyšlených čísel.",
+    "Klidná paleta s jedním cihlovým akcentem na CTA a jasná hierarchie nadpisů."
   ],
-  "verdikt": "Predelat: web je bez fotek a bez loga, s číslovanými sekcemi a kartami a s tmavým pruhem postupu. Působí jako prázdná šablona, ne jako redesign pro Borgetto. Koncept půdorysu je třeba naplnit skutečnými prostory a fotkami.",
-  "_hash": "d4170a4ec39c959302095243dd5856cdc541fbee"
+  "verdikt": "Opravená je jen druhá výtka (šablonové číslování a pruh). Hlavní problém zůstává: web bez jediné fotky, bez loga, s rozbitou mobilní hlavičkou a s tak málo obsahem, že působí jako drátěný model, ne jako hotový návrh. Předělat úvod na skutečných fotkách prostor, teprve pak posílat.",
+  "_hash": "6caa0b337317f71c731cea6661e8c30332d0d453"
 }

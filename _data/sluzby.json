@@ -1,14 +1,20 @@
 [
   {
     "nazev": "Komerčné priestory",
-    "popis": "Prenájom priestorov pre obchod, kancelárie alebo službu vo Zvolene."
+    "popis": "Prenájom priestorov pre obchod, kancelárie alebo službu vo Zvolene.",
+    "foto": "priestory.jpg",
+    "alt": "Ukážka: prázdny komerčný priestor s výkladom"
   },
   {
     "nazev": "Nehnuteľnosti",
-    "popis": "Prenájom a správa nehnuteľností."
+    "popis": "Prenájom a správa nehnuteľností.",
+    "foto": "kancelaria.jpg",
+    "alt": "Ukážka: kancelársky priestor na prenájom"
   },
   {
     "nazev": "Požičovňa a prenájom",
-    "popis": "Prenájom vecí a vybavenia podľa dohody."
+    "popis": "Prenájom vecí a vybavenia podľa dohody.",
+    "foto": "poziconva.jpg",
+    "alt": "Ukážka: vybavenie z požičovne"
   }
 ]

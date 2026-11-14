@@ -119,3 +119,8 @@ a[href^="mailto"]{display:inline-block;padding:.6rem 0}
 .hero .plan{color:#e9dfcc}.hero .btn{background:var(--warm);border-color:var(--warm);color:#fff}.hero .btn:hover{background:#e3a37f;border-color:#e3a37f;color:#14231f}
 .karty li{padding:2.2rem 0}.karty h3{font-size:var(--step-3)}.karty p{font-size:var(--step-1)}
 @media(max-width:820px){nav a{min-height:44px;display:inline-flex;align-items:center}.hlavicka .wrap{padding-top:.4rem;padding-bottom:.4rem}}
+
+/* kolo 4: ukázkové fotky */
+.hero-foto img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:2px}
+.hero .popis-foto{color:#e9dfcc;font-size:.85rem;margin:.6rem 0 0}
+.karty li img{width:100%;aspect-ratio:3/2;object-fit:cover;margin-bottom:1rem}
