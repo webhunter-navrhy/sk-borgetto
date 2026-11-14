@@ -1,16 +1,19 @@
 {
   "znamka": 5,
   "slabiny": [
-    "Hero (PC i 390 px) je pořád jen prázdný drátěný půdorys s popisky Komerčné priestory / Nehnuteľnosti / Požičovňa / Dohoda na tmavě zeleném bloku. Na celém webu není jediná fotka (QA: 0 obrázků, 0,01 MB). Oprava: hero postavit na velké fotce budovy nebo prostor Borgetto ve Zvolenu přes celou šířku, z borgetto.sk nebo od klienta. Půdorys buď odstranit, nebo napojit na skutečné prostory jen s doloženými údaji.",
-    "Sekce Čo ponúkame má číslování a karty pryč, ale tři řádky seznamu mají jen jednu obecnou větu („Prenájom a správa nehnuteľností.“) a web končí hned kontaktem. Na PC jsou tak jen dvě obrazovky obsahu. Oprava: ke každé položce dát fotku a konkrétní údaje z borgetto.sk (adresa nebo lokalita objektu, typ prostoru, co se v požičovni půjčuje). Když podklady chybí, uvést je jako chybějící ve shrnutí, nevymýšlet.",
-    "Hlavička na 390 px se pořád láme: název do dvou řádků „Borgetto s. / r. o.“ a menu Čo ponúkame / Kontakt pod sebe, celkem asi 80 px. Logo klienta chybí, je tam jen text v Georgii. og:image chybí (chyba QA). E-mailový odkaz v kontaktu má 19 px a fonty jsou pořád Georgia + system-ui. Oprava: jednořádková hlavička (logo nebo „Borgetto“ bez s. r. o. vlevo, vpravo jedna kotva Kontakt nebo hamburger, min. 44 px), logo převzít z borgetto.sk, doplnit og:image, e-mail s paddingem na 44 px a nasadit řemeslnou dvojici fontů s ověřenou slovenskou diakritikou."
+    "Hero na PC i 390 px se nezměnil. Pořád v něm je prázdný drátěný půdorys s popisky Komerčné priestory / Nehnuteľnosti / Požičovňa / Dohoda na tmavě zeleném bloku a na webu není jediná fotka (QA: 0 obrázků, 0,01 MB). Brief přitom tvrdí, že tam jsou ilustrační AI fotky. Oprava: půdorys odstranit a hero postavit na velké fotce přes celou šířku. Pokud klient fotky nedodá a borgetto.sk je nedá stáhnout, vygenerovat jednu světlou ilustrační fotku obchodního nebo kancelářského prostoru ve slovenském okresním městě, viditelně ji označit „ilustračná fotografia“ a doplnit og:image.",
+    "Sekce Čo ponúkame zůstala stejná: tři řádky po jedné obecné větě („Prenájom a správa nehnuteľností.“, „Prenájom vecí a vybavenia podľa dohody.“) a hned po nich kontakt, na PC jsou to jen dvě obrazovky obsahu. Oprava: ke každé ze tří položek dát fotku (nebo označenou ilustraci) a 2–3 konkrétní věci z podkladů, tedy typ priestoru, lokalitu ve Zvolene a co se v požičovni půjčuje. Co chybí, nevymýšlet, ale vypsat do shrnutí Rafaelovi jako podklady, které si vyžádat od klienta.",
+    "Hlavička na 390 px se pořád láme: „Borgetto s. / r. o.“ na dva řádky a Čo ponúkame / Kontakt pod sebou, celkem asi 80 px. Logo je stále 33 px vysoké a e-mail borgetto@borgetto.sk v kontaktu má 19 px. Písma jsou pořád Georgia + system-ui. Oprava: jednořádková hlavička s „Borgetto“ bez s. r. o. vlevo a jednou kotvou Kontakt vpravo, obojí min. 44 px. E-mail s paddingem na 44 px. Nasadit řemeslnou dvojici webfontů s ověřenými znaky ľ, ť, ô, ä."
   ],
-  "zavazne": [],
+  "zavazne": [
+    "Hlavička na mobilu (390 px): název firmy se láme na „Borgetto s. / r. o.“ a menu na dva řádky, hlavička tak působí rozbitě.",
+    "Hero a celý web: místo obrazu je jen prázdný půdorys s popisky a na stránce není žádná fotka. Sekce působí prázdně, přestože brief uvádí ilustrační fotky."
+  ],
   "silne": [
-    "Číslování 01/02/03, rámečkové karty i tmavý pruh s kroky jsou pryč. Postup je zkrácený do jedné věty u kontaktu, jak bylo požadováno.",
-    "Žádné přetečení na všech 6 šířkách, kontakt (e-mail, IČO, formulář s poznámkou o ukázce) je jasný a texty vychází z oboru bez vymyšlených čísel.",
-    "Klidná paleta s jedním cihlovým akcentem na CTA a jasná hierarchie nadpisů."
+    "Obsah odpovídá podkladům: Zvolen, IČO 46307141, borgetto@borgetto.sk, nic vymyšleného.",
+    "Bez přetékání na všech 6 šířkách, světlé pozadí, jeden cihlový akcent v CTA, slovenské texty a diakritika v pořádku.",
+    "Číslování a karty jsou odstraněné, výpis služeb je klidný, s jemnými linkami."
   ],
-  "verdikt": "Opravená je jen druhá výtka (šablonové číslování a pruh). Hlavní problém zůstává: web bez jediné fotky, bez loga, s rozbitou mobilní hlavičkou a s tak málo obsahem, že působí jako drátěný model, ne jako hotový návrh. Předělat úvod na skutečných fotkách prostor, teprve pak posílat.",
-  "_hash": "6caa0b337317f71c731cea6661e8c30332d0d453"
+  "verdikt": "Žádná z minulých výtek není opravená: koláže, QA (og:image, 0 obrázků, Georgia/system-ui, dotykové cíle 19 px) i mobilní hlavička jsou stejné jako minule. Známka zůstává 5 a web je potřeba opravit, než ho uvidí klient.",
+  "_hash": "1eb30b2c99ca2cf0089f5ce7814ec3c3a3607b55"
 }
