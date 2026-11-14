@@ -3,14 +3,16 @@
 {% set cesta = '' %}
 {% block obsah %}
 <section class="hero">
-  <div class="wrap hero-grid">
+  <div class="hero-grid">
+    <div class="hero-foto">{{ img('priestory.jpg','Ukážka: prázdny komerčný priestor s veľkými výkladmi',sizes='(max-width:820px) 100vw, 45vw') }}<p class="muted popis-foto">Ukážková fotka, nahradíme ju Vašimi priestormi.</p></div>
+    <div class="wrap hero-text">
     <div>
       <p class="kota">Zvolen · Banskobystrický kraj</p>
       <h1>Priestor, ktorý Vám sedí.</h1>
       <p class="lead">Prenájom komerčných priestorov a nehnuteľností vo Zvolene. K tomu požičovňa vecí a vybavenia.</p>
       <p><a class="btn" href="#kontakt">Napíšte nám</a></p>
     </div>
-    <div class="hero-foto">{{ img('priestory.jpg','Ukážka: prázdny komerčný priestor s veľkými výkladmi',sizes='(max-width:820px) 100vw, 45vw') }}<p class="muted popis-foto">Ukážková fotka, nahradíme ju Vašimi priestormi.</p></div>
+    </div>
   </div>
 </section>
 <section class="sekce" id="sluzby">
