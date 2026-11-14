@@ -19,7 +19,7 @@
   <div class="wrap">
     <h2>Čo ponúkame</h2>
     <ul role="list" class="karty">
-      {% for s in data.sluzby %}<li>{{ img(s.foto, s.alt, sizes='(max-width:820px) 100vw, 30vw') }}<h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+      {% for s in data.sluzby %}<li><figure class="fig">{{ img(s.foto, s.alt, sizes='(max-width:820px) 100vw, 45vw') }}<figcaption>Ukážková fotka</figcaption></figure><div class="txt"><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p><ul>{% for b in s.body %}<li>{{ b }}</li>{% endfor %}</ul><p><a class="odkaz" href="#kontakt">Napíšte nám</a></p></div></li>{% endfor %}
     </ul>
   </div>
 </section>

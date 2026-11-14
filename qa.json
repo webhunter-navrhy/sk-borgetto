@@ -1,5 +1,5 @@
 {
-  "url": "https://webhunter-navrhy.github.io/sk-borgetto/?t=1794636945",
+  "url": "https://webhunter-navrhy.github.io/sk-borgetto/?t=1794637128",
   "ok": true,
   "chyby": [],
   "varovani": [],
@@ -30,15 +30,15 @@
         "pocet_pretekajicich": 0
       }
     },
-    "preneseno_PC_MB": 0.09,
+    "preneseno_PC_MB": 0.21,
     "nejvetsi_obrazek_PC": {
       "kB": 36,
       "url": "https://webhunter-navrhy.github.io/sk-borgetto/img/poziconva-640.webp"
     },
-    "snimku_PC": 3,
-    "preneseno_mobil_MB": 0.16,
+    "snimku_PC": 4,
+    "preneseno_mobil_MB": 0.28,
     "nejvetsi_obrazek_mobil": {
-      "kB": 92,
+      "kB": 93,
       "url": "https://webhunter-navrhy.github.io/sk-borgetto/img/poziconva-1280.webp"
     },
     "snimku_mobil": 4,
@@ -57,8 +57,8 @@
       "viewport": true
     },
     "maly_dotykovy_cil": 0,
-    "font_nadpis": "Georgia",
-    "font_text": "system-ui",
+    "font_nadpis": "Lora",
+    "font_text": "Inter",
     "podstranky": {
       "stranek": 2,
       "obrazku": 9

@@ -1,17 +1,17 @@
 {
-  "znamka": 6,
+  "znamka": 7,
   "slabiny": [
-    "Hero na PC: fotka je jen asi 240px obdélník vpravo v tmavě zeleném bloku, ne velká fotka přes celou šířku, jak žádalo minulé kolo. Oprava: fotku prázdného obchodního priestoru dát přes celou šířku (min. 70vh), nadpis „Priestor, ktorý Vám sedí.“ a CTA „Napíšte nám“ položit na světlý pruh pod ni nebo na jemný přechod přes její spodní část. Popisek „Ukážková fotka, nahradíme ju Vašimi priestormi.“ nechat viditelný.",
-    "Sekce Čo ponúkame na PC: fotka 245px vlevo, h3 visí u její spodní hrany a pravá polovina řádku zůstává prázdná. Pod každou položkou je dál jen jedna obecná věta („Prenájom a správa nehnuteľností.“, „Prenájom vecí a vybavenia podľa dohody.“). Oprava: řádek rozdělit na fotku 50 % a text 50 %, h3 dát nahoru k textu a doplnit 2–3 body jen z toho, co je doložené. Co v podkladech chybí (typy a výměry priestorov, adresy ve Zvolene, seznam věcí v požičovni), vypsat Rafaelovi do shrnutí jako podklady, které si má od klienta vyžádat.",
-    "Typografie celého webu: podle QA je pořád Georgia + system-ui. Oprava: nasadit self-hosted dvojici webfontů (např. Newsreader 500 pro nadpisy a Inter Tight 400 pro text), předem ověřit znaky ľ, ť, ô, ä, č v obou řezech a sjednotit velikosti h2 a h3 v Čo ponúkame a Ozvite sa nám."
+    "Čo ponúkame (PC 1440): rozdělení fotka 50 % / text 50 % a h3 nahoře je opravené, ale bod se 2–3 doloženými informacemi chybí. U každé položky je pořád jen jedna věta a pod ní zůstává asi 150 px prázdného místa vedle fotky. Oprava: u Komerčných priestorov rozepsat to, co už v textu je, na body (obchod / kancelárie / služba, Zvolen). U každé položky přidat textový odkaz „Napíšte nám“ na formulář. Rafaelovi do shrnutí vypsat podklady, které si má od klienta vyžádat: typy a výměry priestorov, adresy ve Zvolene a seznam věcí v požičovni.",
+    "Hero (PC 1440×900): fotka přes celou šířku je opravená, ale tmavě zelený pruh pod ní začíná až těsně nad spodní hranou první obrazovky. Na ní je vidět jen h1 a perex s tlačítkem „Napíšte nám“ jsou až po scrollu (buňka 2). Oprava: fotku zmenšit asi na 60–62vh a zúžit horní odsazení pruhu, aby se h1, perex i CTA vešly do první obrazovky. Pruh pod fotkou udělat světlý v barvě pozadí stránky, jak chtělo minulé kolo, ne tmavě zelený blok.",
+    "Čo ponúkame (PC i mobil): popisek „Ukážková fotka, nahradíme ju Vašimi priestormi.“ je jen u hero. Fotky u Komerčných priestorov, Nehnuteľností a Požičovne jsou podle briefu taky ilustrační AI ukázky, ale označené nejsou. Oprava: dát stejný malý popisek do rohu všech tří fotek, aby klient nemyslel, že jde o jeho skutečné prostory a sklad."
   ],
   "zavazne": [],
   "silne": [
-    "Hlavička na 390 px je opravená: jednořádková, „Borgetto“ vlevo, „KONTAKT“ vpravo, nic se neláme ani nepřetéká (QA 0 přetečení na všech 6 šířkách).",
-    "Prázdný drátěný půdorys je pryč. Hero i všechny tři služby mají světlé fotky, které k oboru sedí (prázdný obchodní priestor, byt s výhledem na okresní město, sklad požičovny), jsou poctivě označené jako ukázkové a přibyl og:image.",
-    "Pravdivost: nic vymyšleného, IČO 46307141, e-mail a Zvolen sedí s briefem a formulář je označený jako ukázka.",
-    "Na mobilu má web dobrý rytmus: fotka, nadpis a text po obrazovkách, čitelné velikosti písma, velké pole formuláře a výrazné tlačítko Odoslať."
+    "Hero má fotku přes celou šířku asi na 70vh a popisek ukázkové fotky je vidět, minulá výtka je opravená.",
+    "Webfonty Lora + Inter nahradily Georgia/system-ui. Slovenské znaky ľ, ô, č, ň (Čo ponúkame, Požičovňa, nehnuteľností) se kreslí správně a h2 Čo ponúkame / Ozvite sa nám mají stejnou velikost.",
+    "QA je čistá: nic nepřetéká na žádné ze 6 šířek, stránka má 0,2–0,3 MB, je nastavený noindex a SEO je kompletní.",
+    "Kontakt je jasný: firma, IČO, e-mail a formulář vedle sebe. Na mobilu je pořadí logické a texty se dobře čtou."
   ],
-  "verdikt": "Obě závažné vady jsou opravené (hlavička na mobilu a web bez fotek), takže známka jde z 5 na 6. K odeslání ale chybí hero na fotce přes celou šířku, vyvážená a obsahově bohatší sekce Čo ponúkame a skutečné webfonty místo Georgie a system-ui.",
-  "_hash": "a7a3b48d710c63e4cda7f81c2228524955f0b198"
+  "verdikt": "Všechny tři výtky z minulého kola jsou z větší části opravené, jen u služeb chybí doložené body. Web je korektní a čistý, ale pořád řídký a šablonovitý, a CTA v hero je na PC až pod první obrazovkou. Ještě jedno kolo úprav, ne odeslat.",
+  "_hash": "b2eb46eb903bf81cde7ac9bd704dd1ebeb6742e2"
 }
